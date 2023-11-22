@@ -39,7 +39,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     "main",
-    "authentication",
+    "authentication",   
     "corsheaders",
     "django.contrib.admin",
     "django.contrib.auth",
