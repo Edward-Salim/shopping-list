@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render
 from django.urls import reverse
 from main.models import Product
@@ -14,6 +15,7 @@ from django.contrib.auth import logout
 from django.contrib.auth.decorators import login_required
 import datetime
 
+from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
 
